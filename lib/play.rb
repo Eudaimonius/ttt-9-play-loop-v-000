@@ -37,6 +37,7 @@ end
 
 # Define your play method below
 def play(board)
+  x=9
   while valid_move?(board,index)
     turn(board)
   end
