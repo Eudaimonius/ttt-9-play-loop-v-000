@@ -40,7 +40,7 @@ def play(board)
   x=0
   while x<9
     turn(board)
-    x++
+    x=+
   end
 
 
